@@ -1,0 +1,9 @@
+{
+  "name": "process-link",
+  "dependencies": {
+    "contentful-management": "^5.27.1",
+    "http-status-codes": "^1.4.0",
+    "node-fetch": "^2.6.0",
+    "opengraph-io": "^1.1.3"
+  }
+}

@@ -28,6 +28,7 @@
   },
   "scripts": {
     "dev": "gatsby develop",
+    "prebuild": "cd functions/process-link && npm install",
     "build": "npm run clean && gatsby build",
     "deploy": "npm run clean && gatsby build --prefix-paths && gh-pages -d public",
     "serve": "gatsby serve",
