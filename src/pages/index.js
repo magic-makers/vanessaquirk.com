@@ -1,8 +1,6 @@
 import React from 'react';
-
 import Layout from '../components/Layout';
-
-import { Link } from 'gatsby';
+import { graphql } from 'gatsby';
 import Img from 'gatsby-image';
 
 const IndexPage = ({ data }) => (
@@ -22,25 +20,21 @@ const IndexPage = ({ data }) => (
           </p>
         </header>
         <section className="tiles">
-          {data.allContentfulBlogPost.edges.map((post, idx) => {
+          {data.allContentfulArticleLink.edges.map((post, idx) => {
             const article = post.node;
             const rotatedStyleClass = 'style' + ((idx % 6) + 1);
             return (
               <article className={rotatedStyleClass}>
                 <span className="image">
-                  <Img alt="" sizes={article.heroImage.sizes} />
+                  <Img alt="" sizes={article.image.sizes} />
                 </span>
-                <Link to={`/blog/${article.slug}`}>
+                <a target="_blank" rel="noopener noreferrer" href={article.url}>
                   <h2>{article.title}</h2>
                   <div className="content">
-                    <p
-                      dangerouslySetInnerHTML={{
-                        __html: article.description.childMarkdownRemark.html,
-                      }}
-                    />
-                    <small>{article.publishDate}</small>
+                    <p>{article.description.description}</p>
+                    <small>{article.articlePublishedTime}</small>
                   </div>
-                </Link>
+                </a>
               </article>
             );
           })}
@@ -59,21 +53,20 @@ export const query = graphql`
         title
       }
     }
-    allContentfulBlogPost(sort: { fields: [publishDate], order: DESC }) {
+    allContentfulArticleLink(
+      sort: { fields: [articlePublishedTime], order: DESC }
+    ) {
       edges {
         node {
           title
-          slug
-          publishDate(formatString: "MMMM Do, YYYY")
-          tags
-          heroImage {
+          description {
+            description
+          }
+          url
+          articlePublishedTime(formatString: "MMMM Do, YYYY")
+          image {
             sizes(maxWidth: 350, maxHeight: 196, resizingBehavior: SCALE) {
               ...GatsbyContentfulSizes_withWebp
-            }
-          }
-          description {
-            childMarkdownRemark {
-              html
             }
           }
         }
