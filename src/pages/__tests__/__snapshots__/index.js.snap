@@ -1,0 +1,509 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Index renders correctly 1`] = `
+<div
+  className="main-body is-preload"
+>
+  <div
+    id="wrapper"
+  >
+    <header
+      id="header"
+    >
+      <div
+        className="inner"
+      >
+        <a
+          className="logo"
+          href="/"
+        >
+          <span
+            className="symbol"
+          >
+            <img
+              alt=""
+              src="test-file-stub"
+            />
+          </span>
+          <span
+            className="title"
+          >
+            Phantom
+          </span>
+        </a>
+        <nav>
+          <ul>
+            <li>
+              <a
+                href="#menu"
+                onClick={[Function]}
+              >
+                Menu
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div
+      className=" "
+    >
+      <nav
+        id="menu"
+      >
+        <div
+          className="inner"
+        >
+          <h2>
+            Menu
+          </h2>
+          <ul>
+            <li>
+              <a
+                href="/"
+              >
+                Home
+              </a>
+            </li>
+            <li>
+              <a
+                href="/Elements"
+              >
+                Elements
+              </a>
+            </li>
+          </ul>
+        </div>
+        <a
+          className="close"
+          href="#menu"
+          onClick={[Function]}
+        >
+          Close
+        </a>
+      </nav>
+    </div>
+    <div
+      id="main"
+    >
+      <div
+        className="inner"
+      >
+        <header>
+          <h1>
+            This is Phantom, a free, fully responsive gatsby starter
+            <br />
+          </h1>
+          <p>
+            Etiam quis viverra lorem, in semper lorem. Sed nisl arcu euismod sit amet nisi euismod sed cursus arcu elementum ipsum arcu vivamus quis venenatis orci lorem ipsum et magna feugiat veroeros aliquam. Lorem ipsum dolor sit amet nullam dolore.
+          </p>
+        </header>
+        <section
+          className="tiles"
+        >
+          <article
+            className="style1"
+          >
+            <span
+              className="image"
+            >
+              <div
+                className=" gatsby-image-wrapper"
+                style={
+                  Object {
+                    "maxHeight": null,
+                    "maxWidth": null,
+                    "overflow": "hidden",
+                    "position": "relative",
+                  }
+                }
+              >
+                <div
+                  aria-hidden={true}
+                  style={
+                    Object {
+                      "paddingBottom": "56%",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <img
+                  alt=""
+                  aria-hidden={true}
+                  src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAlgCWAAD/4gIcSUNDX1BST0ZJTEUAAQEAAAIMbGNtcwIQAABtbnRyUkdCIFhZWiAH3AABABkAAwApADlhY3NwQVBQTAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9tYAAQAAAADTLWxjbXMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAApkZXNjAAAA/AAAAF5jcHJ0AAABXAAAAAt3dHB0AAABaAAAABRia3B0AAABfAAAABRyWFlaAAABkAAAABRnWFlaAAABpAAAABRiWFlaAAABuAAAABRyVFJDAAABzAAAAEBnVFJDAAABzAAAAEBiVFJDAAABzAAAAEBkZXNjAAAAAAAAAANjMgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB0ZXh0AAAAAEZCAABYWVogAAAAAAAA9tYAAQAAAADTLVhZWiAAAAAAAAADFgAAAzMAAAKkWFlaIAAAAAAAAG+iAAA49QAAA5BYWVogAAAAAAAAYpkAALeFAAAY2lhZWiAAAAAAAAAkoAAAD4QAALbPY3VydgAAAAAAAAAaAAAAywHJA2MFkghrC/YQPxVRGzQh8SmQMhg7kkYFUXdd7WtwegWJsZp8rGm/fdPD6TD////bAEMAEAsMDgwKEA4NDhIREBMYKBoYFhYYMSMlHSg6Mz08OTM4N0BIXE5ARFdFNzhQbVFXX2JnaGc+TXF5cGR4XGVnY//bAEMBERISGBUYLxoaL2NCOEJjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY//AABEIAAoAFAMBIgACEQEDEQH/xAAXAAADAQAAAAAAAAAAAAAAAAAABAUG/8QAIBAAAgICAgIDAAAAAAAAAAAAAQIAAwQRITEFEhQiMv/EABYBAQEBAAAAAAAAAAAAAAAAAAEAA//EABgRAAIDAAAAAAAAAAAAAAAAAAABAhES/9oADAMBAAIRAxEAPwDPePuGReFdilY/RHEf85T8dq7aX2joraEl4/1aoLwD2BHs52bHX2YnVZA2epOcrDKEWudTpnUHXWxCTe+TyYTXYUf/2Q=="
+                  style={
+                    Object {
+                      "height": "100%",
+                      "left": 0,
+                      "objectFit": "cover",
+                      "objectPosition": "center",
+                      "opacity": 1,
+                      "position": "absolute",
+                      "top": 0,
+                      "transitionDelay": "500ms",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <picture>
+                  <source
+                    sizes="(max-width: 350px) 100vw, 350px"
+                    srcSet="//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=88&h=49&q=50&fm=webp&fit=scale 88w,
+//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=175&h=98&q=50&fm=webp&fit=scale 175w,
+//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=350&h=196&q=50&fm=webp&fit=scale 350w,
+//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=525&h=294&q=50&fm=webp&fit=scale 525w,
+//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=700&h=392&q=50&fm=webp&fit=scale 700w,
+//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=1050&h=588&q=50&fm=webp&fit=scale 1050w,
+//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=1200&h=672&q=50&fm=webp&fit=scale 1200w"
+                    type="image/webp"
+                  />
+                  <source
+                    sizes="(max-width: 350px) 100vw, 350px"
+                    srcSet="//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=88&h=49&q=50&fit=scale 88w,
+//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=175&h=98&q=50&fit=scale 175w,
+//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=350&h=196&q=50&fit=scale 350w,
+//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=525&h=294&q=50&fit=scale 525w,
+//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=700&h=392&q=50&fit=scale 700w,
+//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=1050&h=588&q=50&fit=scale 1050w,
+//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=1200&h=672&q=50&fit=scale 1200w"
+                  />
+                  <img
+                    alt=""
+                    loading="lazy"
+                    onLoad={[Function]}
+                    sizes="(max-width: 350px) 100vw, 350px"
+                    src="//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=350&h=196&q=50&fit=scale"
+                    srcSet="//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=88&h=49&q=50&fit=scale 88w,
+//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=175&h=98&q=50&fit=scale 175w,
+//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=350&h=196&q=50&fit=scale 350w,
+//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=525&h=294&q=50&fit=scale 525w,
+//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=700&h=392&q=50&fit=scale 700w,
+//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=1050&h=588&q=50&fit=scale 1050w,
+//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=1200&h=672&q=50&fit=scale 1200w"
+                    style={
+                      Object {
+                        "height": "100%",
+                        "left": 0,
+                        "objectFit": "cover",
+                        "objectPosition": "center",
+                        "opacity": 0,
+                        "position": "absolute",
+                        "top": 0,
+                        "transition": "opacity 500ms",
+                        "width": "100%",
+                      }
+                    }
+                  />
+                </picture>
+                <noscript
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "<picture><source type='image/webp' srcset=\\"//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=88&h=49&q=50&fm=webp&fit=scale 88w,
+//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=175&h=98&q=50&fm=webp&fit=scale 175w,
+//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=350&h=196&q=50&fm=webp&fit=scale 350w,
+//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=525&h=294&q=50&fm=webp&fit=scale 525w,
+//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=700&h=392&q=50&fm=webp&fit=scale 700w,
+//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=1050&h=588&q=50&fm=webp&fit=scale 1050w,
+//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=1200&h=672&q=50&fm=webp&fit=scale 1200w\\" sizes=\\"(max-width: 350px) 100vw, 350px\\" /><source srcset=\\"//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=88&h=49&q=50&fit=scale 88w,
+//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=175&h=98&q=50&fit=scale 175w,
+//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=350&h=196&q=50&fit=scale 350w,
+//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=525&h=294&q=50&fit=scale 525w,
+//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=700&h=392&q=50&fit=scale 700w,
+//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=1050&h=588&q=50&fit=scale 1050w,
+//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=1200&h=672&q=50&fit=scale 1200w\\" sizes=\\"(max-width: 350px) 100vw, 350px\\" /><img loading=\\"lazy\\" sizes=\\"(max-width: 350px) 100vw, 350px\\" srcset=\\"//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=88&h=49&q=50&fit=scale 88w,
+//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=175&h=98&q=50&fit=scale 175w,
+//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=350&h=196&q=50&fit=scale 350w,
+//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=525&h=294&q=50&fit=scale 525w,
+//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=700&h=392&q=50&fit=scale 700w,
+//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=1050&h=588&q=50&fit=scale 1050w,
+//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=1200&h=672&q=50&fit=scale 1200w\\" src=\\"//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=350&h=196&q=50&fit=scale\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+                    }
+                  }
+                />
+              </div>
+            </span>
+            <a
+              href="https://www.businessinsider.com/why-chinas-copycat-buildings-are-actually-good-for-architecture-2013-4"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <h2>
+                Why China's Copycat Buildings Are Actually Good For Architecture
+              </h2>
+              <div
+                className="content"
+              >
+                <p>
+                  A leading-edge research firm focused on digital transformation.
+                </p>
+                <small />
+              </div>
+            </a>
+          </article>
+          <article
+            className="style2"
+          >
+            <span
+              className="image"
+            >
+              <div
+                className=" gatsby-image-wrapper"
+                style={
+                  Object {
+                    "maxHeight": null,
+                    "maxWidth": null,
+                    "overflow": "hidden",
+                    "position": "relative",
+                  }
+                }
+              >
+                <div
+                  aria-hidden={true}
+                  style={
+                    Object {
+                      "paddingBottom": "56%",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <img
+                  alt=""
+                  aria-hidden={true}
+                  src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/4gI0SUNDX1BST0ZJTEUAAQEAAAIkYXBwbAQAAABtbnRyUkdCIFhZWiAH4QAHAAcADQAWACBhY3NwQVBQTAAAAABBUFBMAAAAAAAAAAAAAAAAAAAAAAAA9tYAAQAAAADTLWFwcGzKGpWCJX8QTTiZE9XR6hWCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAApkZXNjAAAA/AAAAGVjcHJ0AAABZAAAACN3dHB0AAABiAAAABRyWFlaAAABnAAAABRnWFlaAAABsAAAABRiWFlaAAABxAAAABRyVFJDAAAB2AAAACBjaGFkAAAB+AAAACxiVFJDAAAB2AAAACBnVFJDAAAB2AAAACBkZXNjAAAAAAAAAAtEaXNwbGF5IFAzAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHRleHQAAAAAQ29weXJpZ2h0IEFwcGxlIEluYy4sIDIwMTcAAFhZWiAAAAAAAADzUQABAAAAARbMWFlaIAAAAAAAAIPfAAA9v////7tYWVogAAAAAAAASr8AALE3AAAKuVhZWiAAAAAAAAAoOAAAEQsAAMi5cGFyYQAAAAAAAwAAAAJmZgAA8qcAAA1ZAAAT0AAACltzZjMyAAAAAAABDEIAAAXe///zJgAAB5MAAP2Q///7ov///aMAAAPcAADAbv/bAEMAAwICAwICAwMDAwQDAwQFCAUFBAQFCgcHBggMCgwMCwoLCw0OEhANDhEOCwsQFhARExQVFRUMDxcYFhQYEhQVFP/bAEMBAwQEBQQFCQUFCRQNCw0UFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFBQUFP/AABEIAA0AFAMBEQACEQEDEQH/xAAXAAEAAwAAAAAAAAAAAAAAAAAHAQYI/8QAJRAAAQQCAQMEAwAAAAAAAAAAAQIDBREEEgAHITEGE0FRCCLR/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAME/8QAHBEBAQEAAQUAAAAAAAAAAAAAAAECAxESIXHB/9oADAMBAAIRAxEAPwDDXTTporqirMZxJ2NjMtCEHGbkXPaRkKJOyd/CKSFHv86iu9gEiQ/G3HkmI1UPMwOOMv3GWn8mesOrSha9yksApFIV5oH9aNqA5k4888t79yz10+qauLPEBIjsiu6VJP0RzWmq8HNuxeUheiX2wQpTLl6rr4NcBDx/XWPKkXCs4+nchp9dEfVKJrgQ765aaXqmNqgPGQf5wP/Z"
+                  style={
+                    Object {
+                      "height": "100%",
+                      "left": 0,
+                      "objectFit": "cover",
+                      "objectPosition": "center",
+                      "opacity": 1,
+                      "position": "absolute",
+                      "top": 0,
+                      "transitionDelay": "500ms",
+                      "width": "100%",
+                    }
+                  }
+                />
+                <picture>
+                  <source
+                    sizes="(max-width: 350px) 100vw, 350px"
+                    srcSet="//images.ctfassets.net/sruqohogh9hk/2VKW1hBP9JAd87E0wLs9QJ/654b566206bae042e083666e53f45bed/18.10.02_SWL_Podcast-Newsletter-600x400.jpeg?w=88&h=49&q=50&fm=webp&fit=scale 88w,
+//images.ctfassets.net/sruqohogh9hk/2VKW1hBP9JAd87E0wLs9QJ/654b566206bae042e083666e53f45bed/18.10.02_SWL_Podcast-Newsletter-600x400.jpeg?w=175&h=98&q=50&fm=webp&fit=scale 175w,
+//images.ctfassets.net/sruqohogh9hk/2VKW1hBP9JAd87E0wLs9QJ/654b566206bae042e083666e53f45bed/18.10.02_SWL_Podcast-Newsletter-600x400.jpeg?w=350&h=196&q=50&fm=webp&fit=scale 350w,
+//images.ctfassets.net/sruqohogh9hk/2VKW1hBP9JAd87E0wLs9QJ/654b566206bae042e083666e53f45bed/18.10.02_SWL_Podcast-Newsletter-600x400.jpeg?w=525&h=294&q=50&fm=webp&fit=scale 525w,
+//images.ctfassets.net/sruqohogh9hk/2VKW1hBP9JAd87E0wLs9QJ/654b566206bae042e083666e53f45bed/18.10.02_SWL_Podcast-Newsletter-600x400.jpeg?w=700&h=392&q=50&fm=webp&fit=scale 700w,
+//images.ctfassets.net/sruqohogh9hk/2VKW1hBP9JAd87E0wLs9QJ/654b566206bae042e083666e53f45bed/18.10.02_SWL_Podcast-Newsletter-600x400.jpeg?w=1050&h=588&q=50&fm=webp&fit=scale 1050w,
+//images.ctfassets.net/sruqohogh9hk/2VKW1hBP9JAd87E0wLs9QJ/654b566206bae042e083666e53f45bed/18.10.02_SWL_Podcast-Newsletter-600x400.jpeg?w=1200&h=672&q=50&fm=webp&fit=scale 1200w"
+                    type="image/webp"
+                  />
+                  <source
+                    sizes="(max-width: 350px) 100vw, 350px"
+                    srcSet="//images.ctfassets.net/sruqohogh9hk/2VKW1hBP9JAd87E0wLs9QJ/654b566206bae042e083666e53f45bed/18.10.02_SWL_Podcast-Newsletter-600x400.jpeg?w=88&h=49&q=50&fit=scale 88w,
+//images.ctfassets.net/sruqohogh9hk/2VKW1hBP9JAd87E0wLs9QJ/654b566206bae042e083666e53f45bed/18.10.02_SWL_Podcast-Newsletter-600x400.jpeg?w=175&h=98&q=50&fit=scale 175w,
+//images.ctfassets.net/sruqohogh9hk/2VKW1hBP9JAd87E0wLs9QJ/654b566206bae042e083666e53f45bed/18.10.02_SWL_Podcast-Newsletter-600x400.jpeg?w=350&h=196&q=50&fit=scale 350w,
+//images.ctfassets.net/sruqohogh9hk/2VKW1hBP9JAd87E0wLs9QJ/654b566206bae042e083666e53f45bed/18.10.02_SWL_Podcast-Newsletter-600x400.jpeg?w=525&h=294&q=50&fit=scale 525w,
+//images.ctfassets.net/sruqohogh9hk/2VKW1hBP9JAd87E0wLs9QJ/654b566206bae042e083666e53f45bed/18.10.02_SWL_Podcast-Newsletter-600x400.jpeg?w=700&h=392&q=50&fit=scale 700w,
+//images.ctfassets.net/sruqohogh9hk/2VKW1hBP9JAd87E0wLs9QJ/654b566206bae042e083666e53f45bed/18.10.02_SWL_Podcast-Newsletter-600x400.jpeg?w=1050&h=588&q=50&fit=scale 1050w,
+//images.ctfassets.net/sruqohogh9hk/2VKW1hBP9JAd87E0wLs9QJ/654b566206bae042e083666e53f45bed/18.10.02_SWL_Podcast-Newsletter-600x400.jpeg?w=1200&h=672&q=50&fit=scale 1200w"
+                  />
+                  <img
+                    alt=""
+                    loading="lazy"
+                    onLoad={[Function]}
+                    sizes="(max-width: 350px) 100vw, 350px"
+                    src="//images.ctfassets.net/sruqohogh9hk/2VKW1hBP9JAd87E0wLs9QJ/654b566206bae042e083666e53f45bed/18.10.02_SWL_Podcast-Newsletter-600x400.jpeg?w=350&h=196&q=50&fit=scale"
+                    srcSet="//images.ctfassets.net/sruqohogh9hk/2VKW1hBP9JAd87E0wLs9QJ/654b566206bae042e083666e53f45bed/18.10.02_SWL_Podcast-Newsletter-600x400.jpeg?w=88&h=49&q=50&fit=scale 88w,
+//images.ctfassets.net/sruqohogh9hk/2VKW1hBP9JAd87E0wLs9QJ/654b566206bae042e083666e53f45bed/18.10.02_SWL_Podcast-Newsletter-600x400.jpeg?w=175&h=98&q=50&fit=scale 175w,
+//images.ctfassets.net/sruqohogh9hk/2VKW1hBP9JAd87E0wLs9QJ/654b566206bae042e083666e53f45bed/18.10.02_SWL_Podcast-Newsletter-600x400.jpeg?w=350&h=196&q=50&fit=scale 350w,
+//images.ctfassets.net/sruqohogh9hk/2VKW1hBP9JAd87E0wLs9QJ/654b566206bae042e083666e53f45bed/18.10.02_SWL_Podcast-Newsletter-600x400.jpeg?w=525&h=294&q=50&fit=scale 525w,
+//images.ctfassets.net/sruqohogh9hk/2VKW1hBP9JAd87E0wLs9QJ/654b566206bae042e083666e53f45bed/18.10.02_SWL_Podcast-Newsletter-600x400.jpeg?w=700&h=392&q=50&fit=scale 700w,
+//images.ctfassets.net/sruqohogh9hk/2VKW1hBP9JAd87E0wLs9QJ/654b566206bae042e083666e53f45bed/18.10.02_SWL_Podcast-Newsletter-600x400.jpeg?w=1050&h=588&q=50&fit=scale 1050w,
+//images.ctfassets.net/sruqohogh9hk/2VKW1hBP9JAd87E0wLs9QJ/654b566206bae042e083666e53f45bed/18.10.02_SWL_Podcast-Newsletter-600x400.jpeg?w=1200&h=672&q=50&fit=scale 1200w"
+                    style={
+                      Object {
+                        "height": "100%",
+                        "left": 0,
+                        "objectFit": "cover",
+                        "objectPosition": "center",
+                        "opacity": 0,
+                        "position": "absolute",
+                        "top": 0,
+                        "transition": "opacity 500ms",
+                        "width": "100%",
+                      }
+                    }
+                  />
+                </picture>
+                <noscript
+                  dangerouslySetInnerHTML={
+                    Object {
+                      "__html": "<picture><source type='image/webp' srcset=\\"//images.ctfassets.net/sruqohogh9hk/2VKW1hBP9JAd87E0wLs9QJ/654b566206bae042e083666e53f45bed/18.10.02_SWL_Podcast-Newsletter-600x400.jpeg?w=88&h=49&q=50&fm=webp&fit=scale 88w,
+//images.ctfassets.net/sruqohogh9hk/2VKW1hBP9JAd87E0wLs9QJ/654b566206bae042e083666e53f45bed/18.10.02_SWL_Podcast-Newsletter-600x400.jpeg?w=175&h=98&q=50&fm=webp&fit=scale 175w,
+//images.ctfassets.net/sruqohogh9hk/2VKW1hBP9JAd87E0wLs9QJ/654b566206bae042e083666e53f45bed/18.10.02_SWL_Podcast-Newsletter-600x400.jpeg?w=350&h=196&q=50&fm=webp&fit=scale 350w,
+//images.ctfassets.net/sruqohogh9hk/2VKW1hBP9JAd87E0wLs9QJ/654b566206bae042e083666e53f45bed/18.10.02_SWL_Podcast-Newsletter-600x400.jpeg?w=525&h=294&q=50&fm=webp&fit=scale 525w,
+//images.ctfassets.net/sruqohogh9hk/2VKW1hBP9JAd87E0wLs9QJ/654b566206bae042e083666e53f45bed/18.10.02_SWL_Podcast-Newsletter-600x400.jpeg?w=700&h=392&q=50&fm=webp&fit=scale 700w,
+//images.ctfassets.net/sruqohogh9hk/2VKW1hBP9JAd87E0wLs9QJ/654b566206bae042e083666e53f45bed/18.10.02_SWL_Podcast-Newsletter-600x400.jpeg?w=1050&h=588&q=50&fm=webp&fit=scale 1050w,
+//images.ctfassets.net/sruqohogh9hk/2VKW1hBP9JAd87E0wLs9QJ/654b566206bae042e083666e53f45bed/18.10.02_SWL_Podcast-Newsletter-600x400.jpeg?w=1200&h=672&q=50&fm=webp&fit=scale 1200w\\" sizes=\\"(max-width: 350px) 100vw, 350px\\" /><source srcset=\\"//images.ctfassets.net/sruqohogh9hk/2VKW1hBP9JAd87E0wLs9QJ/654b566206bae042e083666e53f45bed/18.10.02_SWL_Podcast-Newsletter-600x400.jpeg?w=88&h=49&q=50&fit=scale 88w,
+//images.ctfassets.net/sruqohogh9hk/2VKW1hBP9JAd87E0wLs9QJ/654b566206bae042e083666e53f45bed/18.10.02_SWL_Podcast-Newsletter-600x400.jpeg?w=175&h=98&q=50&fit=scale 175w,
+//images.ctfassets.net/sruqohogh9hk/2VKW1hBP9JAd87E0wLs9QJ/654b566206bae042e083666e53f45bed/18.10.02_SWL_Podcast-Newsletter-600x400.jpeg?w=350&h=196&q=50&fit=scale 350w,
+//images.ctfassets.net/sruqohogh9hk/2VKW1hBP9JAd87E0wLs9QJ/654b566206bae042e083666e53f45bed/18.10.02_SWL_Podcast-Newsletter-600x400.jpeg?w=525&h=294&q=50&fit=scale 525w,
+//images.ctfassets.net/sruqohogh9hk/2VKW1hBP9JAd87E0wLs9QJ/654b566206bae042e083666e53f45bed/18.10.02_SWL_Podcast-Newsletter-600x400.jpeg?w=700&h=392&q=50&fit=scale 700w,
+//images.ctfassets.net/sruqohogh9hk/2VKW1hBP9JAd87E0wLs9QJ/654b566206bae042e083666e53f45bed/18.10.02_SWL_Podcast-Newsletter-600x400.jpeg?w=1050&h=588&q=50&fit=scale 1050w,
+//images.ctfassets.net/sruqohogh9hk/2VKW1hBP9JAd87E0wLs9QJ/654b566206bae042e083666e53f45bed/18.10.02_SWL_Podcast-Newsletter-600x400.jpeg?w=1200&h=672&q=50&fit=scale 1200w\\" sizes=\\"(max-width: 350px) 100vw, 350px\\" /><img loading=\\"lazy\\" sizes=\\"(max-width: 350px) 100vw, 350px\\" srcset=\\"//images.ctfassets.net/sruqohogh9hk/2VKW1hBP9JAd87E0wLs9QJ/654b566206bae042e083666e53f45bed/18.10.02_SWL_Podcast-Newsletter-600x400.jpeg?w=88&h=49&q=50&fit=scale 88w,
+//images.ctfassets.net/sruqohogh9hk/2VKW1hBP9JAd87E0wLs9QJ/654b566206bae042e083666e53f45bed/18.10.02_SWL_Podcast-Newsletter-600x400.jpeg?w=175&h=98&q=50&fit=scale 175w,
+//images.ctfassets.net/sruqohogh9hk/2VKW1hBP9JAd87E0wLs9QJ/654b566206bae042e083666e53f45bed/18.10.02_SWL_Podcast-Newsletter-600x400.jpeg?w=350&h=196&q=50&fit=scale 350w,
+//images.ctfassets.net/sruqohogh9hk/2VKW1hBP9JAd87E0wLs9QJ/654b566206bae042e083666e53f45bed/18.10.02_SWL_Podcast-Newsletter-600x400.jpeg?w=525&h=294&q=50&fit=scale 525w,
+//images.ctfassets.net/sruqohogh9hk/2VKW1hBP9JAd87E0wLs9QJ/654b566206bae042e083666e53f45bed/18.10.02_SWL_Podcast-Newsletter-600x400.jpeg?w=700&h=392&q=50&fit=scale 700w,
+//images.ctfassets.net/sruqohogh9hk/2VKW1hBP9JAd87E0wLs9QJ/654b566206bae042e083666e53f45bed/18.10.02_SWL_Podcast-Newsletter-600x400.jpeg?w=1050&h=588&q=50&fit=scale 1050w,
+//images.ctfassets.net/sruqohogh9hk/2VKW1hBP9JAd87E0wLs9QJ/654b566206bae042e083666e53f45bed/18.10.02_SWL_Podcast-Newsletter-600x400.jpeg?w=1200&h=672&q=50&fit=scale 1200w\\" src=\\"//images.ctfassets.net/sruqohogh9hk/2VKW1hBP9JAd87E0wLs9QJ/654b566206bae042e083666e53f45bed/18.10.02_SWL_Podcast-Newsletter-600x400.jpeg?w=350&h=196&q=50&fit=scale\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+                    }
+                  }
+                />
+              </div>
+            </span>
+            <a
+              href="https://sidewalklabs.com/blog/introducing-city-of-the-future-a-podcast-from-sidewalk-labs/"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              <h2>
+                Sidewalk Labs | Introducing “City of the Future” — a Podcast from Sidewalk Labs
+              </h2>
+              <div
+                className="content"
+              >
+                <p>
+                  Each episode explores one idea or innovation that will transform cities.
+                </p>
+                <small />
+              </div>
+            </a>
+          </article>
+        </section>
+      </div>
+    </div>
+    <footer
+      id="footer"
+    >
+      <div
+        className="inner"
+      >
+        <section>
+          <h2>
+            Get in touch
+          </h2>
+          <form
+            action="#"
+            method="post"
+          >
+            <div
+              className="fields"
+            >
+              <div
+                className="field half"
+              >
+                <input
+                  id="name"
+                  name="name"
+                  placeholder="Name"
+                  type="text"
+                />
+              </div>
+              <div
+                className="field half"
+              >
+                <input
+                  id="email"
+                  name="email"
+                  placeholder="Email"
+                  type="email"
+                />
+              </div>
+              <div
+                className="field"
+              >
+                <textarea
+                  id="message"
+                  name="message"
+                  placeholder="Message"
+                />
+              </div>
+            </div>
+            <ul
+              className="actions"
+            >
+              <li>
+                <input
+                  className="primary"
+                  type="submit"
+                  value="Send"
+                />
+              </li>
+            </ul>
+          </form>
+        </section>
+        <section>
+          <h2>
+            Follow
+          </h2>
+          <ul
+            className="icons"
+          >
+            <li>
+              <a
+                className="icon fa-github"
+                href="https://github.com/anubhavsrivastava"
+              >
+                <span
+                  className="label"
+                >
+                  Github
+                </span>
+              </a>
+            </li>
+            <li>
+              <a
+                className="icon fa-twitter"
+                href="https://twitter.com/onlyanubhav"
+              >
+                <span
+                  className="label"
+                >
+                  Twitter
+                </span>
+              </a>
+            </li>
+            <li>
+              <a
+                className="icon fa-facebook"
+                href="https://facebook.com/theanubhav"
+              >
+                <span
+                  className="label"
+                >
+                  Facebook
+                </span>
+              </a>
+            </li>
+          </ul>
+        </section>
+        <ul
+          className="copyright"
+        >
+          <li>
+            © Phantom. All rights reserved
+          </li>
+          <li>
+            Design: 
+            <a
+              href="http://html5up.net"
+            >
+              HTML5 UP
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+</div>
+`;

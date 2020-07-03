@@ -24,7 +24,7 @@ const IndexPage = ({ data }) => (
             const article = post.node;
             const rotatedStyleClass = 'style' + ((idx % 6) + 1);
             return (
-              <article className={rotatedStyleClass}>
+              <article key={article.id} className={rotatedStyleClass}>
                 <span className="image">
                   <Img alt="" sizes={article.image.sizes} />
                 </span>
@@ -58,6 +58,7 @@ export const query = graphql`
     ) {
       edges {
         node {
+          id
           title
           description {
             description
