@@ -1,0 +1,114 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer renders correctly 1`] = `
+<footer
+  id="footer"
+>
+  <div
+    className="inner"
+  >
+    <section>
+      <h2>
+        Get in touch
+      </h2>
+      <form
+        action="#"
+        method="post"
+      >
+        <div
+          className="fields"
+        >
+          <div
+            className="field half"
+          >
+            <input
+              id="name"
+              name="name"
+              placeholder="Name"
+              type="text"
+            />
+          </div>
+          <div
+            className="field half"
+          >
+            <input
+              id="email"
+              name="email"
+              placeholder="Email"
+              type="email"
+            />
+          </div>
+          <div
+            className="field"
+          >
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Message"
+            />
+          </div>
+        </div>
+        <ul
+          className="actions"
+        >
+          <li>
+            <input
+              className="primary"
+              type="submit"
+              value="Send"
+            />
+          </li>
+        </ul>
+      </form>
+    </section>
+    <section>
+      <h2>
+        Follow
+      </h2>
+      <ul
+        className="icons"
+      >
+        <li>
+          <a
+            className="icon icon-1"
+            href="https://foo.com"
+          >
+            <span
+              className="label"
+            >
+              Link 1
+            </span>
+          </a>
+        </li>
+        <li>
+          <a
+            className="icon icon-2"
+            href="https://bar.com"
+          >
+            <span
+              className="label"
+            >
+              Link 2
+            </span>
+          </a>
+        </li>
+      </ul>
+    </section>
+    <ul
+      className="copyright"
+    >
+      <li>
+        © Phantom. All rights reserved
+      </li>
+      <li>
+        Design: 
+        <a
+          href="http://html5up.net"
+        >
+          HTML5 UP
+        </a>
+      </li>
+    </ul>
+  </div>
+</footer>
+`;
