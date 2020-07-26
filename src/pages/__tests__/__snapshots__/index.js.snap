@@ -67,9 +67,9 @@ exports[`Index renders correctly 1`] = `
             </li>
             <li>
               <a
-                href="/Elements"
+                href="/Bio"
               >
-                Elements
+                Bio
               </a>
             </li>
           </ul>
