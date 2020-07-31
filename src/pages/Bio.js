@@ -3,12 +3,6 @@ import React from 'react';
 import Layout from '../components/Layout';
 import pic1 from '../assets/images/01.jpg';
 
-{
-  /* <span className="image">
-<Img alt="" sizes={article.image.sizes} />
-</span> */
-}
-
 const BioPage = () => (
   <Layout>
     <div id="main">

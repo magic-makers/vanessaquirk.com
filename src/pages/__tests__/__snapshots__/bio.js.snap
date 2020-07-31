@@ -28,7 +28,7 @@ exports[`Bio renders correctly 1`] = `
           <span
             className="title"
           >
-            Phantom
+            VanessaQuirk.com
           </span>
         </a>
         <nav>
@@ -185,20 +185,8 @@ exports[`Bio renders correctly 1`] = `
           >
             <li>
               <a
-                className="icon fa-github"
-                href="https://github.com/anubhavsrivastava"
-              >
-                <span
-                  className="label"
-                >
-                  Github
-                </span>
-              </a>
-            </li>
-            <li>
-              <a
                 className="icon fa-twitter"
-                href="https://twitter.com/onlyanubhav"
+                href="https://twitter.com/vmquirk"
               >
                 <span
                   className="label"
@@ -210,7 +198,7 @@ exports[`Bio renders correctly 1`] = `
             <li>
               <a
                 className="icon fa-facebook"
-                href="https://facebook.com/theanubhav"
+                href="https://www.facebook.com/vmquirk"
               >
                 <span
                   className="label"
@@ -225,7 +213,7 @@ exports[`Bio renders correctly 1`] = `
           className="copyright"
         >
           <li>
-            © Phantom. All rights reserved
+            © Magic Makers. All rights reserved
           </li>
           <li>
             Design: 

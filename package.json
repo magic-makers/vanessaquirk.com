@@ -1,14 +1,13 @@
 {
-  "name": "gatsby-starter-phantom",
+  "name": "vanessa-quirk-dot-com",
   "version": "0.0.1",
-  "description": "Gatsby.js V2 starter template based on Phantom by HTML5 UP",
+  "description": "Personal website for Vanessa Quirk",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anubhavsrivastava/gatsby-starter-phantom.git"
+    "url": "git+https://github.com/magic-makers/vanessaquirk.com.git"
   },
   "author": {
-    "name": "Anubhav Srivastava",
-    "email": "anubhav.srivastava00@gmail.com"
+    "name": "Zev Goldstein"
   },
   "dependencies": {
     "gatsby": "^2.4.3",
@@ -50,11 +49,12 @@
   "keywords": [
     "gatsby",
     "gatsby-starter",
-    "gatsby-starter-phantom"
+    "gatsby-starter-phantom",
+    "personal-website"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/anubhavsrivastava/gatsby-starter-phantom/issues"
+    "url": "https://github.com/magic-makers/vanessaquirk.com/issues"
   },
-  "homepage": "https://github.com/anubhavsrivastava/gatsby-starter-phantom#readme"
+  "homepage": "https://github.com/magic-makers/vanessaquirk.com#readme"
 }

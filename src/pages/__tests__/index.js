@@ -28,7 +28,7 @@ describe('Index', () => {
 const IndexPageQueryResp = {
   site: {
     siteMetadata: {
-      title: 'Gatsby Starter phantom',
+      title: 'Vanessa Quirk',
     },
   },
   allContentfulArticleLink: {

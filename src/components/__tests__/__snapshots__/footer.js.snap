@@ -98,7 +98,7 @@ exports[`Footer renders correctly 1`] = `
       className="copyright"
     >
       <li>
-        © Phantom. All rights reserved
+        © Magic Makers. All rights reserved
       </li>
       <li>
         Design: 
