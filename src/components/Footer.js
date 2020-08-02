@@ -9,7 +9,7 @@ export default function Footer() {
         <section>
           <h2>Follow</h2>
           <ul className="icons">
-            {config.socialLinks.map(social => {
+            {config.socialLinks.map((social) => {
               const { icon, name, url } = social;
               return (
                 <li key={url}>
@@ -22,7 +22,7 @@ export default function Footer() {
           </ul>
         </section>
         <ul className="copyright">
-          <li>&copy; Phantom. All rights reserved</li>
+          <li>&copy; Magic Makers. All rights reserved</li>
           <li>
             Design: <a href="http://html5up.net">HTML5 UP</a>
           </li>

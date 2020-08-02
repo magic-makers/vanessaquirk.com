@@ -9,7 +9,7 @@ const IndexPage = ({ data }) => (
       <div className="inner">
         <header>
           <h1>
-            This is Phantom, a free, fully responsive gatsby starter
+            This is Vanessa Quirk
             <br />
           </h1>
           <p>
