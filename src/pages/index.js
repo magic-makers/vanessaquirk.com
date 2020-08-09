@@ -1,7 +1,7 @@
 import React from 'react';
+import ArticleCard from '../components/ArticleCard';
 import Layout from '../components/Layout';
 import { graphql } from 'gatsby';
-import Img from 'gatsby-image';
 
 const IndexPage = ({ data }) => (
   <Layout>
@@ -21,21 +21,13 @@ const IndexPage = ({ data }) => (
         </header>
         <section className="tiles">
           {data.allContentfulArticleLink.edges.map((post, idx) => {
-            const article = post.node;
             const rotatedStyleClass = 'style' + ((idx % 6) + 1);
             return (
-              <article key={article.id} className={rotatedStyleClass}>
-                <span className="image">
-                  <Img alt="" sizes={article.image.sizes} />
-                </span>
-                <a target="_blank" rel="noopener noreferrer" href={article.url}>
-                  <h2>{article.title}</h2>
-                  <div className="content">
-                    <p>{article.description.description}</p>
-                    <small>{article.articlePublishedTime}</small>
-                  </div>
-                </a>
-              </article>
+              <ArticleCard
+                key={post.node.id}
+                article={post.node}
+                className={rotatedStyleClass}
+              />
             );
           })}
         </section>

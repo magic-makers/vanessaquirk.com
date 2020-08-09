@@ -1,0 +1,143 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArticleCard renders correctly 1`] = `
+<article
+  className="foo"
+>
+  <span
+    className="image"
+  >
+    <div
+      className=" gatsby-image-wrapper"
+      style={
+        Object {
+          "maxHeight": null,
+          "maxWidth": null,
+          "overflow": "hidden",
+          "position": "relative",
+        }
+      }
+    >
+      <div
+        aria-hidden={true}
+        style={
+          Object {
+            "paddingBottom": "56%",
+            "width": "100%",
+          }
+        }
+      />
+      <img
+        alt=""
+        aria-hidden={true}
+        src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAlgCWAAD/4gIcSUNDX1BST0ZJTEUAAQEAAAIMbGNtcwIQAABtbnRyUkdCIFhZWiAH3AABABkAAwApADlhY3NwQVBQTAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9tYAAQAAAADTLWxjbXMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAApkZXNjAAAA/AAAAF5jcHJ0AAABXAAAAAt3dHB0AAABaAAAABRia3B0AAABfAAAABRyWFlaAAABkAAAABRnWFlaAAABpAAAABRiWFlaAAABuAAAABRyVFJDAAABzAAAAEBnVFJDAAABzAAAAEBiVFJDAAABzAAAAEBkZXNjAAAAAAAAAANjMgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB0ZXh0AAAAAEZCAABYWVogAAAAAAAA9tYAAQAAAADTLVhZWiAAAAAAAAADFgAAAzMAAAKkWFlaIAAAAAAAAG+iAAA49QAAA5BYWVogAAAAAAAAYpkAALeFAAAY2lhZWiAAAAAAAAAkoAAAD4QAALbPY3VydgAAAAAAAAAaAAAAywHJA2MFkghrC/YQPxVRGzQh8SmQMhg7kkYFUXdd7WtwegWJsZp8rGm/fdPD6TD////bAEMAEAsMDgwKEA4NDhIREBMYKBoYFhYYMSMlHSg6Mz08OTM4N0BIXE5ARFdFNzhQbVFXX2JnaGc+TXF5cGR4XGVnY//bAEMBERISGBUYLxoaL2NCOEJjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY//AABEIAAoAFAMBIgACEQEDEQH/xAAXAAADAQAAAAAAAAAAAAAAAAAABAUG/8QAIBAAAgICAgIDAAAAAAAAAAAAAQIAAwQRITEFEhQiMv/EABYBAQEBAAAAAAAAAAAAAAAAAAEAA//EABgRAAIDAAAAAAAAAAAAAAAAAAABAhES/9oADAMBAAIRAxEAPwDPePuGReFdilY/RHEf85T8dq7aX2joraEl4/1aoLwD2BHs52bHX2YnVZA2epOcrDKEWudTpnUHXWxCTe+TyYTXYUf/2Q=="
+        style={
+          Object {
+            "height": "100%",
+            "left": 0,
+            "objectFit": "cover",
+            "objectPosition": "center",
+            "opacity": 1,
+            "position": "absolute",
+            "top": 0,
+            "transitionDelay": "500ms",
+            "width": "100%",
+          }
+        }
+      />
+      <picture>
+        <source
+          sizes="(max-width: 350px) 100vw, 350px"
+          srcSet="//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=88&h=49&q=50&fm=webp&fit=scale 88w,
+//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=175&h=98&q=50&fm=webp&fit=scale 175w,
+//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=350&h=196&q=50&fm=webp&fit=scale 350w,
+//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=525&h=294&q=50&fm=webp&fit=scale 525w,
+//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=700&h=392&q=50&fm=webp&fit=scale 700w,
+//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=1050&h=588&q=50&fm=webp&fit=scale 1050w,
+//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=1200&h=672&q=50&fm=webp&fit=scale 1200w"
+          type="image/webp"
+        />
+        <source
+          sizes="(max-width: 350px) 100vw, 350px"
+          srcSet="//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=88&h=49&q=50&fit=scale 88w,
+//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=175&h=98&q=50&fit=scale 175w,
+//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=350&h=196&q=50&fit=scale 350w,
+//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=525&h=294&q=50&fit=scale 525w,
+//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=700&h=392&q=50&fit=scale 700w,
+//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=1050&h=588&q=50&fit=scale 1050w,
+//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=1200&h=672&q=50&fit=scale 1200w"
+        />
+        <img
+          alt=""
+          loading="lazy"
+          onLoad={[Function]}
+          sizes="(max-width: 350px) 100vw, 350px"
+          src="//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=350&h=196&q=50&fit=scale"
+          srcSet="//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=88&h=49&q=50&fit=scale 88w,
+//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=175&h=98&q=50&fit=scale 175w,
+//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=350&h=196&q=50&fit=scale 350w,
+//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=525&h=294&q=50&fit=scale 525w,
+//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=700&h=392&q=50&fit=scale 700w,
+//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=1050&h=588&q=50&fit=scale 1050w,
+//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=1200&h=672&q=50&fit=scale 1200w"
+          style={
+            Object {
+              "height": "100%",
+              "left": 0,
+              "objectFit": "cover",
+              "objectPosition": "center",
+              "opacity": 0,
+              "position": "absolute",
+              "top": 0,
+              "transition": "opacity 500ms",
+              "width": "100%",
+            }
+          }
+        />
+      </picture>
+      <noscript
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "<picture><source type='image/webp' srcset=\\"//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=88&h=49&q=50&fm=webp&fit=scale 88w,
+//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=175&h=98&q=50&fm=webp&fit=scale 175w,
+//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=350&h=196&q=50&fm=webp&fit=scale 350w,
+//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=525&h=294&q=50&fm=webp&fit=scale 525w,
+//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=700&h=392&q=50&fm=webp&fit=scale 700w,
+//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=1050&h=588&q=50&fm=webp&fit=scale 1050w,
+//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=1200&h=672&q=50&fm=webp&fit=scale 1200w\\" sizes=\\"(max-width: 350px) 100vw, 350px\\" /><source srcset=\\"//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=88&h=49&q=50&fit=scale 88w,
+//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=175&h=98&q=50&fit=scale 175w,
+//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=350&h=196&q=50&fit=scale 350w,
+//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=525&h=294&q=50&fit=scale 525w,
+//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=700&h=392&q=50&fit=scale 700w,
+//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=1050&h=588&q=50&fit=scale 1050w,
+//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=1200&h=672&q=50&fit=scale 1200w\\" sizes=\\"(max-width: 350px) 100vw, 350px\\" /><img loading=\\"lazy\\" sizes=\\"(max-width: 350px) 100vw, 350px\\" srcset=\\"//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=88&h=49&q=50&fit=scale 88w,
+//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=175&h=98&q=50&fit=scale 175w,
+//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=350&h=196&q=50&fit=scale 350w,
+//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=525&h=294&q=50&fit=scale 525w,
+//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=700&h=392&q=50&fit=scale 700w,
+//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=1050&h=588&q=50&fit=scale 1050w,
+//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=1200&h=672&q=50&fit=scale 1200w\\" src=\\"//images.ctfassets.net/sruqohogh9hk/2wENuAEXPZRYEQVKbKzXg1/fc59808e4debd5f179f4be44ae694599/50e5abfeecad04d161000018_width_1200_format_jpeg?w=350&h=196&q=50&fit=scale\\" alt=\\"\\" style=\\"position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center\\"/></picture>",
+          }
+        }
+      />
+    </div>
+  </span>
+  <a
+    href="https://www.businessinsider.com/why-chinas-copycat-buildings-are-actually-good-for-architecture-2013-4"
+    rel="noopener noreferrer"
+    target="_blank"
+  >
+    <h2>
+      Why China's Copycat Buildings Are Actually Good For Architecture
+    </h2>
+    <div
+      className="content"
+    >
+      <p>
+        A leading-edge research firm focused on digital transformation.
+      </p>
+      <small />
+    </div>
+  </a>
+</article>
+`;
