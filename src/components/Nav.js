@@ -13,6 +13,9 @@ export default function Nav({ onClose = () => {} }) {
           <li>
             <Link to="/bio">Bio</Link>
           </li>
+          <li>
+            <Link to="/articles">Articles</Link>
+          </li>
         </ul>
       </div>
       <a

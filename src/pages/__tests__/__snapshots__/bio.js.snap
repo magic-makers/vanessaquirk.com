@@ -72,6 +72,13 @@ exports[`Bio renders correctly 1`] = `
                 Bio
               </a>
             </li>
+            <li>
+              <a
+                href="/articles"
+              >
+                Articles
+              </a>
+            </li>
           </ul>
         </div>
         <a

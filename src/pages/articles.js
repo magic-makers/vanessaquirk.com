@@ -3,21 +3,12 @@ import ArticleCard from '../components/ArticleCard';
 import Layout from '../components/Layout';
 import { graphql } from 'gatsby';
 
-const IndexPage = ({ data }) => (
+const ArticlesPage = ({ data }) => (
   <Layout>
     <div id="main">
       <div className="inner">
         <header>
-          <h1>
-            This is Vanessa Quirk
-            <br />
-          </h1>
-          <p>
-            Etiam quis viverra lorem, in semper lorem. Sed nisl arcu euismod sit
-            amet nisi euismod sed cursus arcu elementum ipsum arcu vivamus quis
-            venenatis orci lorem ipsum et magna feugiat veroeros aliquam. Lorem
-            ipsum dolor sit amet nullam dolore.
-          </p>
+          <h1>My Portfilio</h1>
         </header>
         <section className="tiles">
           {data.allContentfulArticleLink.edges.map((post, idx) => {
@@ -36,10 +27,10 @@ const IndexPage = ({ data }) => (
   </Layout>
 );
 
-export default IndexPage;
+export default ArticlesPage;
 
 export const query = graphql`
-  query BlogIndexQuery {
+  query ArticlesPageQuery {
     site {
       siteMetadata {
         title
@@ -47,7 +38,6 @@ export const query = graphql`
     }
     allContentfulArticleLink(
       sort: { fields: [articlePublishedTime], order: DESC }
-      limit: 3
     ) {
       edges {
         node {
