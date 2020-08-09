@@ -1,7 +1,7 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 import { StaticQuery } from 'gatsby';
-import BioPage from '../Bio';
+import BioPage from '../bio';
 
 // Needed because StaticQuery is used in Layout component
 beforeEach(() => {
