@@ -9,7 +9,7 @@ export default function Footer() {
         <section>
           <h2>Follow</h2>
           <ul className="icons">
-            {config.socialLinks.map((social) => {
+            {config.socialLinks.map(social => {
               const { icon, name, url } = social;
               return (
                 <li key={url}>
