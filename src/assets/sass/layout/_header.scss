@@ -7,9 +7,9 @@
 /* Header */
 
 #header {
-  @include padding(5em, 0, (3em, 0, -5em, 0));
+  padding-top: 3em;
 
-  .logo {
+  a {
     display: block;
     border-bottom: 0;
     color: inherit;
@@ -23,15 +23,23 @@
     > * {
       display: inline-block;
       vertical-align: middle;
+      margin: 0 10px;
     }
 
-    .symbol {
-      margin-right: 0.65em;
-
-      img {
-        display: block;
-        width: 2em;
-        height: 2em;
+    .logo {
+      font-family: 'Limelight';
+      text-align: right;
+      letter-spacing: 6px;
+      color: white;
+      background-color: _palette(fg);
+      font-size: 42px;
+      width: 42px;
+      height: 42px;
+      line-height: 48px;
+      @media (hover: hover) {
+        &:hover {
+          background-color: _palette(accent1);
+        }
       }
     }
   }
@@ -124,8 +132,7 @@
   }
 
   @include breakpoint('<=small') {
-    @include padding(3em, 0, (1em, 0, -3em, 0));
-
+    padding-top: 1em;
     nav {
       right: 0.5em;
       top: 0.5em;
