@@ -3,7 +3,7 @@ import Img from 'gatsby-image';
 
 export default ({ article, className }) => {
   return (
-    <article className={className}>
+    <div className={'tile ' + className}>
       <span className="image">
         <Img alt="" sizes={article.image.sizes} />
       </span>
@@ -14,6 +14,6 @@ export default ({ article, className }) => {
           <small>{article.articlePublishedTime}</small>
         </div>
       </a>
-    </article>
+    </div>
   );
 };

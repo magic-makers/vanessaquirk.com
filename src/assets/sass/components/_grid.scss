@@ -1,0 +1,17 @@
+.grid {
+  $gutter: _size(gutter);
+  $duration: 0.5s;
+  $max-cols: 3;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: $gutter;
+  justify-items: center;
+
+  @include breakpoint('<=medium') {
+    grid-template-columns: 1fr; // single column
+  }
+  > * {
+    max-width: _size(inner) / $max-cols;
+  }
+}

@@ -1,8 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`ArticleCard renders correctly 1`] = `
-<article
-  className="foo"
+<div
+  className="tile foo"
 >
   <span
     className="image"
@@ -139,5 +139,5 @@ exports[`ArticleCard renders correctly 1`] = `
       <small />
     </div>
   </a>
-</article>
+</div>
 `;
