@@ -1,19 +1,22 @@
 import React from 'react';
-import ContactForm from './ContactForm';
 import config from '../../config';
 export default function Footer() {
   return (
     <footer id="footer">
       <div className="inner">
-        <ContactForm />
         <section>
-          <h2>Follow</h2>
+          <h2>Get in touch</h2>
           <ul className="icons">
             {config.socialLinks.map(social => {
               const { icon, name, url } = social;
               return (
                 <li key={url}>
-                  <a href={url} className={`icon ${icon}`}>
+                  <a
+                    href={url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className={`icon fa-2x ${icon}`}
+                  >
                     <span className="label">{name}</span>
                   </a>
                 </li>
@@ -21,12 +24,6 @@ export default function Footer() {
             })}
           </ul>
         </section>
-        <ul className="copyright">
-          <li>&copy; Magic Makers. All rights reserved</li>
-          <li>
-            Design: <a href="http://html5up.net">HTML5 UP</a>
-          </li>
-        </ul>
       </div>
     </footer>
   );
