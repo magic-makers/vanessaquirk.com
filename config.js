@@ -6,7 +6,9 @@ module.exports = {
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
-  manifestIcon: 'src/assets/img/website-icon.svg',
+  // To edit the icon, go to
+  // https://favicon.io/favicon-generator/?t=Q&ff=Limelight&fs=110&fc=%23FFFFFF&b=rounded&bc=%23585858
+  manifestIcon: 'src/assets/images/website-icon.png',
   pathPrefix: `/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Vanessa Quirk',
   subHeading: '',
