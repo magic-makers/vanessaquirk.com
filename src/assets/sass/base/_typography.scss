@@ -37,9 +37,11 @@ a {
   color: _palette(fg);
   border-bottom: dotted 1px transparentize(_palette(fg), 0.5);
 
-  &:hover {
-    border-bottom-color: transparent;
-    color: _palette(accent1) !important;
+  @media (hover: hover) {
+    &:hover {
+      border-bottom-color: transparent;
+      color: _palette(accent1) !important;
+    }
   }
 }
 

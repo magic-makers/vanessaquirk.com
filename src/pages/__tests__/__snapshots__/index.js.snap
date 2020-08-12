@@ -14,21 +14,26 @@ exports[`Index renders correctly 1`] = `
         className="inner"
       >
         <a
-          className="logo"
           href="/"
         >
           <span
-            className="symbol"
+            className="logo"
           >
-            <img
-              alt=""
-              src="test-file-stub"
-            />
+            Q
           </span>
-          <span
-            className="title"
-          >
-            VanessaQuirk.com
+        </a>
+        <a
+          href="/bio"
+        >
+          <span>
+            Bio
+          </span>
+        </a>
+        <a
+          href="/articles"
+        >
+          <span>
+            Articles
           </span>
         </a>
         <nav>
