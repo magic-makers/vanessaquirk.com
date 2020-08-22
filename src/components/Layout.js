@@ -15,10 +15,37 @@ class Layout extends Component {
     };
   }
 
+  attachScriptTag({ src, innerHTML, async = true }) {
+    const s = document.createElement('script');
+    s.type = 'text/javascript';
+    s.async = async;
+    if (src) {
+      s.src = src;
+    }
+    if (innerHTML) {
+      s.innerHTML = innerHTML;
+    }
+    document.body.appendChild(s);
+  }
+
+  showBrowserUpdateBannerIfNeeded() {
+    this.attachScriptTag({
+      innerHTML: `
+        var $buoop = {
+          required: { e: -4, f: -3, o: -3, s: -1, c: -3 },
+          insecure: true,
+          api: 2020.08,
+        };`,
+      async: false,
+    });
+    this.attachScriptTag({ src: '//browser-update.org/update.min.js' });
+  }
+
   componentDidMount() {
     this.timeoutId = setTimeout(() => {
       this.setState({ isPreloaded: false });
     }, 100);
+    this.showBrowserUpdateBannerIfNeeded();
   }
 
   componentWillUnmount() {
