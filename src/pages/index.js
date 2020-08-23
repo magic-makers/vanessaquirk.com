@@ -10,7 +10,7 @@ const IndexPage = ({ data }) => (
         <header>
           <h1>Vanessa M. Quirk</h1>
         </header>
-        <section className="grid">
+        <section className="grid home">
           <div>
             <span className="fa fa-microphone fa-2x" />
             <br />

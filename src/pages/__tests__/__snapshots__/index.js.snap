@@ -107,7 +107,7 @@ exports[`Index renders correctly 1`] = `
           </h1>
         </header>
         <section
-          className="grid"
+          className="grid home"
         >
           <div>
             <span

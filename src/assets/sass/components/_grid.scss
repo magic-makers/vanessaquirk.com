@@ -4,14 +4,30 @@
   $max-cols: 3;
 
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr); // 3 columns
   grid-gap: $gutter;
   justify-items: center;
 
-  @include breakpoint('<=medium') {
-    grid-template-columns: 1fr; // single column
+  &.home {
+    @include breakpoint('<=medium') {
+      grid-template-columns: 1fr; // 1 column
+      > * {
+        max-width: _size(inner) / $max-cols;
+      }
+    }
   }
-  > * {
-    max-width: _size(inner) / $max-cols;
+  &.portfolio {
+    @include breakpoint('large') {
+      grid-gap: _size(gutter) * 0.5;
+    }
+    @include breakpoint('medium') {
+      grid-template-columns: repeat(2, 1fr); // 2 columns
+    }
+    @include breakpoint('<=small') {
+      grid-template-columns: 1fr; // 1 column
+      > * {
+        max-width: _size(inner) / $max-cols;
+      }
+    }
   }
 }

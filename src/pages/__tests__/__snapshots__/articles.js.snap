@@ -107,7 +107,7 @@ exports[`Articles renders correctly 1`] = `
           </h1>
         </header>
         <section
-          className="tiles"
+          className="grid portfolio"
         >
           <div
             className="tile style1"
