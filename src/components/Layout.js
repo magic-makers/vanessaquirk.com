@@ -7,6 +7,12 @@ import '../assets/sass/main.scss';
 import Footer from './Footer';
 import Sidebar from './Sidebar';
 
+// This module relies on window which isn't defined during server side redering.
+// We can skip this import during SSR because it's only used in componentDidMount
+// which isn't called until hydration.
+const browserUpdate =
+  typeof window !== 'undefined' ? import('browser-update') : undefined;
+
 class Layout extends Component {
   constructor(props) {
     super(props);
@@ -19,6 +25,12 @@ class Layout extends Component {
     this.timeoutId = setTimeout(() => {
       this.setState({ isPreloaded: false });
     }, 100);
+    browserUpdate.then(module => {
+      module.default({
+        required: { e: -4, f: -3, o: -3, s: -1, c: -3 },
+        insecure: true,
+      });
+    });
   }
 
   componentWillUnmount() {
