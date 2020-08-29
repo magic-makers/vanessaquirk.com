@@ -107,10 +107,10 @@ exports[`Articles renders correctly 1`] = `
           </h1>
         </header>
         <section
-          className="tiles"
+          className="grid portfolio"
         >
-          <article
-            className="style1"
+          <div
+            className="tile style1"
           >
             <span
               className="image"
@@ -247,9 +247,9 @@ exports[`Articles renders correctly 1`] = `
                 <small />
               </div>
             </a>
-          </article>
-          <article
-            className="style2"
+          </div>
+          <div
+            className="tile style2"
           >
             <span
               className="image"
@@ -386,7 +386,7 @@ exports[`Articles renders correctly 1`] = `
                 <small />
               </div>
             </a>
-          </article>
+          </div>
         </section>
       </div>
     </div>

@@ -10,7 +10,7 @@ const ArticlesPage = ({ data }) => (
         <header>
           <h1>My Portfilio</h1>
         </header>
-        <section className="tiles">
+        <section className="grid portfolio">
           {data.allContentfulArticleLink.edges.map((post, idx) => {
             const rotatedStyleClass = 'style' + ((idx % 6) + 1);
             return (

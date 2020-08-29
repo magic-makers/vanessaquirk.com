@@ -6,8 +6,10 @@ import pic1 from '../assets/images/01.jpg';
 const BioPage = () => (
   <Layout>
     <div id="main">
+      <header>
+        <h1>About Me</h1>
+      </header>
       <div className="inner">
-        <h1>Bio</h1>
         <p>
           <span className="image left">
             <img src={pic1} alt="" />

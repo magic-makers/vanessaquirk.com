@@ -98,12 +98,14 @@ exports[`Bio renders correctly 1`] = `
     <div
       id="main"
     >
+      <header>
+        <h1>
+          About Me
+        </h1>
+      </header>
       <div
         className="inner"
       >
-        <h1>
-          Bio
-        </h1>
         <p>
           <span
             className="image left"
