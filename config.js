@@ -12,17 +12,21 @@ module.exports = {
   pathPrefix: `/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Vanessa Quirk',
   subHeading: '',
-  // social
   socialLinks: [
+    {
+      icon: 'fa-envelope',
+      name: 'Email',
+      url: 'https://mailhide.io/e/vhKaL',
+    },
     {
       icon: 'fa-twitter',
       name: 'Twitter',
       url: 'https://twitter.com/vmquirk',
     },
     {
-      icon: 'fa-facebook',
-      name: 'Facebook',
-      url: 'https://www.facebook.com/vmquirk',
+      icon: 'fa-linkedin',
+      name: 'LinkedIn',
+      url: 'https://www.linkedin.com/in/vmquirk/',
     },
   ],
 };

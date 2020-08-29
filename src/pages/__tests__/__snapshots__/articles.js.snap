@@ -400,67 +400,29 @@ exports[`Articles renders correctly 1`] = `
           <h2>
             Get in touch
           </h2>
-          <form
-            action="#"
-            method="post"
-          >
-            <div
-              className="fields"
-            >
-              <div
-                className="field half"
-              >
-                <input
-                  id="name"
-                  name="name"
-                  placeholder="Name"
-                  type="text"
-                />
-              </div>
-              <div
-                className="field half"
-              >
-                <input
-                  id="email"
-                  name="email"
-                  placeholder="Email"
-                  type="email"
-                />
-              </div>
-              <div
-                className="field"
-              >
-                <textarea
-                  id="message"
-                  name="message"
-                  placeholder="Message"
-                />
-              </div>
-            </div>
-            <ul
-              className="actions"
-            >
-              <li>
-                <input
-                  className="primary"
-                  type="submit"
-                  value="Send"
-                />
-              </li>
-            </ul>
-          </form>
-        </section>
-        <section>
-          <h2>
-            Follow
-          </h2>
           <ul
             className="icons"
           >
             <li>
               <a
-                className="icon fa-twitter"
+                className="icon fa-2x fa-envelope"
+                href="https://mailhide.io/e/vhKaL"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <span
+                  className="label"
+                >
+                  Email
+                </span>
+              </a>
+            </li>
+            <li>
+              <a
+                className="icon fa-2x fa-twitter"
                 href="https://twitter.com/vmquirk"
+                rel="noopener noreferrer"
+                target="_blank"
               >
                 <span
                   className="label"
@@ -471,33 +433,20 @@ exports[`Articles renders correctly 1`] = `
             </li>
             <li>
               <a
-                className="icon fa-facebook"
-                href="https://www.facebook.com/vmquirk"
+                className="icon fa-2x fa-linkedin"
+                href="https://www.linkedin.com/in/vmquirk/"
+                rel="noopener noreferrer"
+                target="_blank"
               >
                 <span
                   className="label"
                 >
-                  Facebook
+                  LinkedIn
                 </span>
               </a>
             </li>
           </ul>
         </section>
-        <ul
-          className="copyright"
-        >
-          <li>
-            © Magic Makers. All rights reserved
-          </li>
-          <li>
-            Design: 
-            <a
-              href="http://html5up.net"
-            >
-              HTML5 UP
-            </a>
-          </li>
-        </ul>
       </div>
     </footer>
   </div>

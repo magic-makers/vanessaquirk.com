@@ -11,67 +11,15 @@ exports[`Footer renders correctly 1`] = `
       <h2>
         Get in touch
       </h2>
-      <form
-        action="#"
-        method="post"
-      >
-        <div
-          className="fields"
-        >
-          <div
-            className="field half"
-          >
-            <input
-              id="name"
-              name="name"
-              placeholder="Name"
-              type="text"
-            />
-          </div>
-          <div
-            className="field half"
-          >
-            <input
-              id="email"
-              name="email"
-              placeholder="Email"
-              type="email"
-            />
-          </div>
-          <div
-            className="field"
-          >
-            <textarea
-              id="message"
-              name="message"
-              placeholder="Message"
-            />
-          </div>
-        </div>
-        <ul
-          className="actions"
-        >
-          <li>
-            <input
-              className="primary"
-              type="submit"
-              value="Send"
-            />
-          </li>
-        </ul>
-      </form>
-    </section>
-    <section>
-      <h2>
-        Follow
-      </h2>
       <ul
         className="icons"
       >
         <li>
           <a
-            className="icon icon-1"
+            className="icon fa-2x icon-1"
             href="https://foo.com"
+            rel="noopener noreferrer"
+            target="_blank"
           >
             <span
               className="label"
@@ -82,8 +30,10 @@ exports[`Footer renders correctly 1`] = `
         </li>
         <li>
           <a
-            className="icon icon-2"
+            className="icon fa-2x icon-2"
             href="https://bar.com"
+            rel="noopener noreferrer"
+            target="_blank"
           >
             <span
               className="label"
@@ -94,21 +44,6 @@ exports[`Footer renders correctly 1`] = `
         </li>
       </ul>
     </section>
-    <ul
-      className="copyright"
-    >
-      <li>
-        © Magic Makers. All rights reserved
-      </li>
-      <li>
-        Design: 
-        <a
-          href="http://html5up.net"
-        >
-          HTML5 UP
-        </a>
-      </li>
-    </ul>
   </div>
 </footer>
 `;
