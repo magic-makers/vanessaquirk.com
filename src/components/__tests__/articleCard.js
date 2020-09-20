@@ -14,13 +14,8 @@ describe('ArticleCard', () => {
 const MOCK_ARTICLE = {
   id: '53a9781d-e1b5-5d96-b460-9807cb6d2b7c',
   title: "Why China's Copycat Buildings Are Actually Good For Architecture",
-  description: {
-    description:
-      'A leading-edge research firm focused on digital transformation.',
-  },
   url:
     'https://www.businessinsider.com/why-chinas-copycat-buildings-are-actually-good-for-architecture-2013-4',
-  articlePublishedTime: null,
   image: {
     sizes: {
       base64:

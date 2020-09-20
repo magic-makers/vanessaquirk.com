@@ -268,14 +268,6 @@ exports[`Index renders correctly 1`] = `
               <h2>
                 Why China's Copycat Buildings Are Actually Good For Architecture
               </h2>
-              <div
-                className="content"
-              >
-                <p>
-                  A leading-edge research firm focused on digital transformation.
-                </p>
-                <small />
-              </div>
             </a>
           </div>
           <div
@@ -407,16 +399,14 @@ exports[`Index renders correctly 1`] = `
               <h2>
                 Sidewalk Labs | Introducing “City of the Future” — a Podcast from Sidewalk Labs
               </h2>
-              <div
-                className="content"
-              >
-                <p>
-                  Each episode explores one idea or innovation that will transform cities.
-                </p>
-                <small />
-              </div>
             </a>
           </div>
+          <a
+            class="fill-row"
+            href="/articles"
+          >
+            See more articles
+          </a>
         </section>
       </div>
     </div>
