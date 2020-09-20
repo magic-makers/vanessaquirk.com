@@ -130,14 +130,6 @@ exports[`ArticleCard renders correctly 1`] = `
     <h2>
       Why China's Copycat Buildings Are Actually Good For Architecture
     </h2>
-    <div
-      className="content"
-    >
-      <p>
-        A leading-edge research firm focused on digital transformation.
-      </p>
-      <small />
-    </div>
   </a>
 </div>
 `;

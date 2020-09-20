@@ -77,11 +77,7 @@ export const query = graphql`
         node {
           id
           title
-          description {
-            description
-          }
           url
-          articlePublishedTime(formatString: "MMMM Do, YYYY")
           image {
             sizes(maxWidth: 350, maxHeight: 196, resizingBehavior: SCALE) {
               ...GatsbyContentfulSizes_withWebp

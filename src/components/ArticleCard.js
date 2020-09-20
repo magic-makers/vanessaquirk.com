@@ -9,10 +9,6 @@ export default ({ article, className }) => {
       </span>
       <a target="_blank" rel="noopener noreferrer" href={article.url}>
         <h2>{article.title}</h2>
-        <div className="content">
-          <p>{article.description.description}</p>
-          <small>{article.articlePublishedTime}</small>
-        </div>
       </a>
     </div>
   );

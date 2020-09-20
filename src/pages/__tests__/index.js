@@ -38,13 +38,8 @@ const IndexPageQueryResp = {
           id: '53a9781d-e1b5-5d96-b460-9807cb6d2b7c',
           title:
             "Why China's Copycat Buildings Are Actually Good For Architecture",
-          description: {
-            description:
-              'A leading-edge research firm focused on digital transformation.',
-          },
           url:
             'https://www.businessinsider.com/why-chinas-copycat-buildings-are-actually-good-for-architecture-2013-4',
-          articlePublishedTime: null,
           image: {
             sizes: {
               base64:
@@ -68,13 +63,8 @@ const IndexPageQueryResp = {
           id: 'c0d3df8e-a2f3-5cb2-a8ed-0291c3502a05',
           title:
             'Sidewalk Labs | Introducing “City of the Future” — a Podcast from Sidewalk Labs',
-          description: {
-            description:
-              'Each episode explores one idea or innovation that will transform cities.',
-          },
           url:
             'https://sidewalklabs.com/blog/introducing-city-of-the-future-a-podcast-from-sidewalk-labs/',
-          articlePublishedTime: null,
           image: {
             sizes: {
               base64:
