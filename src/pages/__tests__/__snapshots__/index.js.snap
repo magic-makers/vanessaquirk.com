@@ -401,6 +401,12 @@ exports[`Index renders correctly 1`] = `
               </h2>
             </a>
           </div>
+          <a
+            class="fill-row"
+            href="/articles"
+          >
+            See more articles
+          </a>
         </section>
       </div>
     </div>

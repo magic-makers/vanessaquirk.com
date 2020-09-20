@@ -54,6 +54,7 @@ const IndexPage = ({ data }) => (
               />
             );
           })}
+          <a href="/articles" class="fill-row">See more articles</a>
         </section>
       </div>
     </div>
