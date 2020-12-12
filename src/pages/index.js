@@ -44,6 +44,11 @@ const IndexPage = ({ data }) => (
               podcasting.
             </p>
           </div>
+        </section>
+        <hr />
+        <h2 className="align-center">Recent work</h2>
+        <br />
+        <section className="grid home">
           {data.allContentfulArticleLink.edges.map((post, idx) => {
             const rotatedStyleClass = 'style' + ((idx % 6) + 1);
             return (
@@ -54,7 +59,7 @@ const IndexPage = ({ data }) => (
               />
             );
           })}
-          <a href="/work" class="fill-row">
+          <a href="/work" className="fill-row">
             See more
           </a>
         </section>

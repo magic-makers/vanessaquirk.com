@@ -185,7 +185,7 @@ pre {
 hr {
   border: 0;
   border-bottom: solid _size(border-width) _palette(border);
-  margin: _size(element-margin) 0;
+  margin: 0 (_size(element-margin) * 2) _size(element-margin);
 
   &.major {
     margin: (_size(element-margin) * 1.5) 0;
