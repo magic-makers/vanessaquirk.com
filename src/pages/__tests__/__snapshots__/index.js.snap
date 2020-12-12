@@ -30,10 +30,10 @@ exports[`Index renders correctly 1`] = `
           </span>
         </a>
         <a
-          href="/articles"
+          href="/work"
         >
           <span>
-            Articles
+            Work
           </span>
         </a>
         <nav>
@@ -79,9 +79,9 @@ exports[`Index renders correctly 1`] = `
             </li>
             <li>
               <a
-                href="/articles"
+                href="/work"
               >
-                Articles
+                Work
               </a>
             </li>
           </ul>
@@ -139,6 +139,17 @@ exports[`Index renders correctly 1`] = `
               I'm a confident public speaker and am always happy to participate in or moderate panel discussions that dive into subject matters I’m passionate about, namely cities, responsible tech, and podcasting.
             </p>
           </div>
+        </section>
+        <hr />
+        <h2
+          className="align-center"
+        >
+          Recent work
+        </h2>
+        <br />
+        <section
+          className="grid home"
+        >
           <div
             className="tile style1"
           >
@@ -402,10 +413,10 @@ exports[`Index renders correctly 1`] = `
             </a>
           </div>
           <a
-            class="fill-row"
-            href="/articles"
+            className="fill-row"
+            href="/work"
           >
-            See more articles
+            See more
           </a>
         </section>
       </div>

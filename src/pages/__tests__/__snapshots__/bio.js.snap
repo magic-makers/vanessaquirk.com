@@ -30,10 +30,10 @@ exports[`Bio renders correctly 1`] = `
           </span>
         </a>
         <a
-          href="/articles"
+          href="/work"
         >
           <span>
-            Articles
+            Work
           </span>
         </a>
         <nav>
@@ -79,9 +79,9 @@ exports[`Bio renders correctly 1`] = `
             </li>
             <li>
               <a
-                href="/articles"
+                href="/work"
               >
-                Articles
+                Work
               </a>
             </li>
           </ul>
