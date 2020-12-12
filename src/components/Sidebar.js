@@ -15,8 +15,8 @@ export default function SideBar({ sections = [] }) {
           <Link to="/bio">
             <span>Bio</span>
           </Link>
-          <Link to="/articles">
-            <span>Articles</span>
+          <Link to="/work">
+            <span>Work</span>
           </Link>
           <TopNav onMenuClick={() => toggleHeader(!headerOpen)} />
         </div>

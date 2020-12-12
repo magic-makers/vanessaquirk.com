@@ -30,10 +30,10 @@ exports[`Articles renders correctly 1`] = `
           </span>
         </a>
         <a
-          href="/articles"
+          href="/work"
         >
           <span>
-            Articles
+            Work
           </span>
         </a>
         <nav>
@@ -79,9 +79,9 @@ exports[`Articles renders correctly 1`] = `
             </li>
             <li>
               <a
-                href="/articles"
+                href="/work"
               >
-                Articles
+                Work
               </a>
             </li>
           </ul>
@@ -101,11 +101,8 @@ exports[`Articles renders correctly 1`] = `
       <div
         className="inner"
       >
-        <header>
-          <h1>
-            My Portfilio
-          </h1>
-        </header>
+        <br />
+        <br />
         <section
           className="grid portfolio"
         >

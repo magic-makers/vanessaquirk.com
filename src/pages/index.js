@@ -16,7 +16,10 @@ const IndexPage = ({ data }) => (
             <br />
             <br />
             <p>
-              Co-creator and co-host of a variety of podcasts, including City of the Future (exploring the ideas and innovations that will transform cities) and Uncertain Things (conversations to, hopefully, help us get us through this current moment).
+              I'm the co-creator and co-host of a variety of podcasts, including
+              City of the Future (exploring the ideas that will transform
+              cities) and Uncertain Things (conversations to get us through this
+              current moment).
             </p>
           </div>
           <div>
@@ -24,7 +27,10 @@ const IndexPage = ({ data }) => (
             <br />
             <br />
             <p>
-              I love researching and reporting on seemingly uninteresting subject matters — from rezoning laws, to recycling technology, to weather mitigation strategies — and crafting compelling stories that will, just maybe, inspire you to care.
+              I'm a thoughtful editor who loves working with others to find the
+              right structure, turn of phrase, or headline. As a writer, I dig
+              deep into research and reporting to craft compelling
+              human-centered stories.
             </p>
           </div>
           <div>
@@ -32,9 +38,17 @@ const IndexPage = ({ data }) => (
             <br />
             <br />
             <p>
-              Always happy to moderate or participate in panel discussions that dive deep into subject matters I’m passionate about, namely cities, architecture, technology, and podcasting.
+              I'm a confident public speaker and am always happy to participate
+              in or moderate panel discussions that dive into subject matters
+              I’m passionate about, namely cities, responsible tech, and
+              podcasting.
             </p>
           </div>
+        </section>
+        <hr />
+        <h2 className="align-center">Recent work</h2>
+        <br />
+        <section className="grid home">
           {data.allContentfulArticleLink.edges.map((post, idx) => {
             const rotatedStyleClass = 'style' + ((idx % 6) + 1);
             return (
@@ -45,7 +59,9 @@ const IndexPage = ({ data }) => (
               />
             );
           })}
-          <a href="/articles" class="fill-row">See more articles</a>
+          <a href="/work" className="fill-row">
+            See more
+          </a>
         </section>
       </div>
     </div>

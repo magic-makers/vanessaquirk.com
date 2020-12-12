@@ -1,7 +1,7 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 import { StaticQuery } from 'gatsby';
-import ArticlesPage from '../articles';
+import ArticlesPage from '../work';
 
 // Needed because StaticQuery is used in Layout component
 beforeEach(() => {

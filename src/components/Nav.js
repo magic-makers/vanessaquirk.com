@@ -14,13 +14,13 @@ export default function Nav({ onClose = () => {} }) {
             <Link to="/bio">Bio</Link>
           </li>
           <li>
-            <Link to="/articles">Articles</Link>
+            <Link to="/work">Work</Link>
           </li>
         </ul>
       </div>
       <a
         className="close"
-        onClick={e => {
+        onClick={(e) => {
           e.preventDefault();
           onClose();
         }}
