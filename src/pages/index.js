@@ -18,8 +18,8 @@ const IndexPage = ({ data }) => (
             <p>
               I'm the co-creator and co-host of a variety of podcasts, including
               City of the Future (exploring the ideas that will transform
-              cities) and Uncertain Things (conversations to get us through this
-              current moment).
+              cities), Uncertain Things (conversations to get us through this
+              moment), and Urban Roots (unexplored stories of urban history).
             </p>
           </div>
           <div>
