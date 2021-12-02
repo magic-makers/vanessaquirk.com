@@ -28,7 +28,7 @@ const BioPage = () => (
           <a href="https://uncertain.substack.com/">Uncertain Things</a>, where
           my journalist roommate Adaam James Levin-Areddy and I talk to the
           thinkers who are navigating us through this current, chaotic moment;
-          and Urban Roots (coming soon), where historic preservationist Deqah
+          and  <a href="https://urbanistmedia.org/about-urban-roots/">Urban Roots</a>, where historic preservationist Deqah
           Hussein-Wetzel and I tell the untold stories of remarkable people and
           places in urban history.
         </p>
