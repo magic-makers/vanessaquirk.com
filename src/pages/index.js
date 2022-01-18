@@ -41,7 +41,7 @@ const IndexPage = ({ data }) => (
               I'm a confident public speaker and am always happy to participate
               in or moderate panel discussions that dive into subject matters
               I’m passionate about, namely cities, responsible tech, and
-              podcasting.
+              podcasting. (<a href="https://www.canva.com/design/DAE1QH_XKCA/0-XYGI6rvIxDRi2Bx0wldQ/view">CV</a>)
             </p>
           </div>
         </section>
